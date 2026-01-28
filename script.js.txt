@@ -1,0 +1,16 @@
+function showStats() {
+    let name = document.getElementById("name").value;
+    let matches = Number(document.getElementById("matches").value);
+    let runs = Number(document.getElementById("runs").value);
+    let balls = Number(document.getElementById("balls").value);
+    let wickets = Number(document.getElementById("wickets").value);
+
+    let battingAverage = matches > 0 ? (runs / matches).toFixed(2) : 0;
+    let strikeRate = balls > 0 ? ((runs / balls) * 100).toFixed(2) : 0;
+
+    document.getElementById("result").innerHTML =
+        "Player: " + name + "<br>" +
+        "Matches: " + matches + "<br>" +
+        "Runs: " + runs + "<br>" +
+        "Wickets: " + wickets + "<br>" +
+        "Batt
