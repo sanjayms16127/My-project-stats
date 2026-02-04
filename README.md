@@ -1,2 +1,2 @@
 # My-project-stats
-siuuuuuuuuuuuuuuuuuuuuuuuu
+You can store the stats of cricket players
