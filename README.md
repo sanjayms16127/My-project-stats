@@ -1,2 +1,1 @@
-#cricket-stats-project
-Cricket player stats project
+You can store the stats of cricketers
