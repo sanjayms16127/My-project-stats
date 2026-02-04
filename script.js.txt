@@ -1,0 +1,17 @@
+// Array to store all cricketers
+const cricketers = [];
+
+// Function to add a cricketer
+function addCricketer(name, country, matches, runs, wickets) {
+  const cricketer = {
+    name,
+    country,
+    matches,
+    runs,
+    wickets,
+    battingAverage: matches > 0 ? (runs / matches).toFixed(2) : 0
+  };
+
+  cricketers.push(cricketer);
+}
+
