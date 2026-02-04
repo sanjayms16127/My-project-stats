@@ -1,2 +1,2 @@
-cricket-stats-project
+#cricket-stats-project
 Cricket player stats project
